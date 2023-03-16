@@ -1,0 +1,13 @@
+Jmeter installation in ubuntu 20
+
+Install:
+    1. sudo apt-get update -y
+    2. sudo apt-get install openjdk-8-jdk -y
+    3. java -version
+    4. sudo apt-get install apache2 -y
+    5. sudo systemctl start apache2
+    6. sudo systemctl enable apache2
+    7. https://jmeter.apache.org/download_jmeter.cgi        (download jmeter binaries .zip file from this site)
+    8. unzip apache-jmeter-5.3.zip
+    9. cd apache-jmeter-5.3/bin
+    10. ./jmeter
